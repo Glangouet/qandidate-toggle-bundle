@@ -18,9 +18,15 @@
             "Qandidate\\Bundle\\ToggleBundle\\": ""
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/1001Pharmacies/qandidate-toggle"
+        }
+    ],
     "require": {
         "php": ">=7.0",
-        "qandidate/toggle": "~1.0",
+        "qandidate/toggle": "dev-master",
         "symfony/framework-bundle": "^2.7||^3.0||^4.0",
         "symfony/http-foundation": "^2.7||^3.0||^4.0",
         "symfony/http-kernel": "^2.7||^3.0||^4.0",
